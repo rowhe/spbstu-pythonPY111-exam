@@ -3,10 +3,10 @@
 
 ```python
 a = len(arr)–1 # Сложность O(1)
-out = list() # O(1)
-while a > 0: # O(n)
-    out.append(arr[a])  # O(n)
-    a = a // 1.7 # O(n)
+out = list() # Сложность O(1)
+while a > 0: # Сложность O(n)
+    out.append(arr[a])  # Сложность O(n)
+    a = a // 1.7 # Сложность O(1)
 out.merge_sort() # O(n log(n)
 ```
 
